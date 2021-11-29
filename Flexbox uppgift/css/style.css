@@ -1,0 +1,155 @@
+/*Container som håller sidans bakgrundsfärg*/
+.container {
+    background-color: white;
+}
+/*Navbar*/
+.Top {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.Top a {
+    text-decoration: none;
+}
+/*De olika delarna i navbaren*/
+.item1 {
+    background-color: gray;
+    flex-grow: 1;
+
+    margin: 10px;
+}
+.item1:hover {
+    background-color: black;
+}
+.item2 {
+    background-color: gray;
+    flex-grow: 1;
+
+    margin: 10px;
+}
+.item2:hover {
+    background-color: black;
+}
+.item3 {
+    background-color: gray;
+    flex-grow: 1;
+
+    margin: 10px;
+}
+.item3:hover {
+    background-color: black;
+}
+.item4 {
+    background-color: gray;
+    flex-grow: 1;
+
+    margin: 10px;
+}
+.item4:hover {
+    background-color: black;
+}
+.cart {
+    background-color: gray;
+    width: 7%;
+
+    margin: 10px;
+}
+.cart:hover {
+    background-color: white;
+}
+p {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.Shoppingcart {
+    width: 50%;
+    margin: 20px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+/*Rubrik på index.html*/
+.titlei {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.titlei2 {
+    border: 5px solid black;
+    background-color: gray;
+    border-radius: 20px;
+    width: 45%;
+}
+/*För footern*/
+.footer {
+    background-color: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    width: 99, 9%;
+    margin-left: -0, 9%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h3 {
+    font-size: 30px;
+}
+/*Rubrik contact.html*/
+.title-contact {
+    height: 5%;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    margin-left: 3em;
+}
+.title-contact-text {
+    border: 5px solid black;
+    background-color: gray;
+    border-radius: 20px;
+    width: 58%;
+}
+/*Text på index*/
+.text-index {
+    justify-content: center;
+    margin-right: 15em;
+    margin-left: 15em;
+    flex-wrap: wrap;
+}
+/*Bild på contact.html*/
+.picture-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-top: -56em;
+}
+/*Text på contact.html*/
+.text-contact {
+    flex-wrap: wrap;
+}
+.text1-about {
+    margin-right: 5em;
+    margin-left: 5em;
+}
+.container-picture-about {
+    display: flex;
+    justify-content: space-around;
+}
+.container-picture-about img {
+    max-width: 35em;
+    max-height: 20em;
+}

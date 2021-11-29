@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Till META, CSS och JS-->
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/Products.css" />
+        <script src="js/Products.js"></script>
+    </head>
+    <!--Container för att ändra bakgrundsfärg-->
+    <div class="container">
+        <body>
+            <!--Navbar-->
+            <div class="Top">
+                <div class="item1">
+                    <a href="index.html"><p>Hem</p> </a>
+                </div>
+                <div class="item2">
+                    <a href="products.html"> <p>Produkter</p> </a>
+                </div>
+                <div class="item3">
+                    <a href="contact.html"> <p>Kontakt</p> </a>
+                </div>
+                <div class="item4">
+                    <a href="about.html"> <p>Om oss</p> </a>
+                </div>
+                <div class="cart">
+                    <button onclick="dropdown()"><img class="Shoppingcart" src="img/cart-icon-28356.png" alt="Shoppingcart" /></button>
+                </div>
+            </div>
+            <!--Min shoppingcart-->
+            <div style="display: flex; justify-content: flex-end;" class="container-dropdown">
+                <div id="cartdropdown" class="container-shoppingcart-dropdown">
+                    <div class="cart-top">
+                        <p>Inkorg</p>
+                    </div>
+                    <div class="shoppingcart-items">
+                        <button onclick="remove1()" style="display: flex; align-self: center; align-items: center; justify-content: right;"></button>
+                        <p id="cartitemproduct1">varukorg</p>
+                        <p id="cartitemprice1">Kr</p>
+                    </div>
+                    <div class="shoppingcart-items">
+                        <button onclick="remove2()" style="display: flex; align-self: center; align-items: center; justify-content: right;"></button>
+                        <p id="cartitemproduct2">varukorg</p>
+                        <p id="cartitemprice2">Kr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title-product">
+                <div class="titletext-product"><h1>Padelrack</h1></div>
+            </div>
+            <!--Produkter-->
+            <div class="container-products">
+                <div class="row">
+                    <div class="Padel">
+                        <img src="img/Adidas-rack_adobespark_adobespark.png" alt="Adidas" />
+                        <h4 id="adidaspadelrack">Adidas padelrack</h4>
+                        <h5 id="adidaspadelrackprice">2999 kr</h5>
+                        <button onclick="adidaspadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+
+                    <div class="Padel">
+                        <img src="img/Babolat-rack_adobespark_adobespark.png" alt="Babolat" />
+                        <h4 id="babolatpadelrack">Babolat padelrack</h4>
+                        <h5 id="babolatpadelrackprice">1799 kr</h5>
+                        <button onclick="babolatpadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+
+                    <div class="Padel">
+                        <img src="img/Bullpadel-rack_adobespark_adobespark.png" alt="Bullpadel" />
+                        <h4 id="bullpadelpadelrack">Bullpadel padelrack</h4>
+                        <h5 id="bullpadelpadelrackprice">2899 kr</h5>
+                        <button onclick="bullpadelpadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="Padel">
+                        <img src="img/Dunlop-rack_adobespark_adobespark.png" alt="Dunlop" />
+                        <h4 id="dunloppadelrack">Dunlop padelrack</h4>
+                        <h5 id="dunloppadelrackprice">999 kr</h5>
+                        <button onclick="dunloppadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+
+                    <div class="Padel">
+                        <img src="img/Head-rack_adobespark_adobespark.png" alt="Head" />
+                        <h4 id="headpadelrack">Head padelrack</h4>
+                        <h5 id="headpadelrackprice">2699 kr</h5>
+                        <button onclick="headpadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+
+                    <div class="Padel">
+                        <img src="img/Nox-rack_adobespark_adobespark.png" alt="Nox" />
+                        <h4 id="noxpadelrack">Nox padelrack</h4>
+                        <h5 id="noxpadelrackprice">1199 kr</h5>
+                        <button onclick="noxpadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="Padel">
+                        <img src="img/Prince-rack_adobespark_adobespark.png" alt="Prince" />
+                        <h4 id="princepadelrack">Prince padelrack</h4>
+                        <h5 id="princepadelrackprice">1299 kr</h5>
+                        <button onclick="princepadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+
+                    <div class="Padel">
+                        <img src="img/Vibora-rack_adobespark_adobespark.png" alt="Vibora" />
+                        <h4 id="viborapadelrack">Vibora padelrack</h4>
+                        <h5 id="viborapadelrackprice">2299 kr</h5>
+                        <button onclick="viborapadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+
+                    <div class="Padel">
+                        <img src="img/Wilson-rack_adobespark_adobespark.png" alt="Wilson" />
+                        <h4 id="wilsonpadelrack">Wilson padelrack</h4>
+                        <h5 id="wilsonpadelrackprice">1599 kr</h5>
+                        <button onclick="wilsonpadelrack()"><h5>Lägg till i varukorg</h5></button>
+                    </div>
+                </div>
+            </div>
+            <!--Min footer-->
+            <footer>
+                <div class="footer">
+                    <div class="Ftext1"><h3>Padelspecialisten</h3></div>
+                    <div class="Ftext2">
+                        <a href="documentation.html"> <h3>Dokumentation</h3> </a>
+                    </div>
+                </div>
+            </footer>
+        </body>
+    </div>
+</html>
